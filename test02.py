@@ -11,3 +11,4 @@ data_c = pd.read_csv(path+'quarter.csv')
 print(data_a.shape)
 print(data_b.shape)
 print(data_c.shape)
+
