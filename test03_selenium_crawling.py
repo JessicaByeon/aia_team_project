@@ -65,3 +65,4 @@ for image in images:
         pass
 
 driver.close()
+
