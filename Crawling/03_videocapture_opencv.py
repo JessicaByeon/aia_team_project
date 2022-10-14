@@ -1,6 +1,7 @@
 import cv2
 
-# OpenCV에서는 카메라와 동영상으로부터 프레임(frame)을 받아오는 작업을 cv2.VideoCapture 클래스 하나로 처리
+# OpenCV에서는 카메라와 동영상으로부터 프레임(frame)을 받아오는 작업을 
+# cv2.VideoCapture 클래스 하나로 처리
 # 카메라/동영상 열기
 vidcap = cv2.VideoCapture("D:\study_data/1.mp4")
 count = 0
