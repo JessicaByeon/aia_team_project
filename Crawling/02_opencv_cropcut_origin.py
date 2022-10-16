@@ -40,4 +40,3 @@ for name in file_name_list:
     img = cv2.imread("D:\study_data\_image/이정재/"+name+".jpg")
     Cutting_face_save(img, name)
     
-
