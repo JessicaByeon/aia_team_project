@@ -93,4 +93,3 @@ for image in images:
 
 driver.close() # 웹 브라우저를 닫아줌
 
-
