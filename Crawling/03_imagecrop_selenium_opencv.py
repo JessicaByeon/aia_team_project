@@ -141,3 +141,12 @@ for name in file_name_list:
     Cutting_face_save(img, name)
     
 print('Done')
+
+
+
+
+
+
+
+
+
