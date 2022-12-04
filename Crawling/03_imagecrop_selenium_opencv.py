@@ -54,7 +54,8 @@ while True:
     # Calculate new scroll height and compare with last scroll height
     new_height = driver.execute_script("return document.body.scrollHeight")
 
-    if new_height == last_height:  # 스크롤 다운했을 때 더 나오는 것이 없다면 스크롤 높이가 같을 것 / 내렸을 때 추가 이미지가 있다면 스크롤이 길어진다면 new height > last height
+    if new_height == last_heigh
+ㅔt:  # 스크롤 다운했을 때 더 나오는 것이 없다면 스크롤 높이가 같을 것 / 내렸을 때 추가 이미지가 있다면 스크롤이 길어진다면 new height > last height
         try:
             driver.find_element(By.CSS_SELECTOR,".mye4qd").click()
         except: # 결과 더보기 버튼을 추가적으로 누른 후에도 결과값이 더 이상 없을 경우
